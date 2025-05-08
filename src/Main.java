@@ -37,6 +37,14 @@ public class Main {
             }
 
 
+            for (int i = 0; i <=12 * 29000; i += 29000){
+                System.out.println(i);
+            }
+
+
+
+
+
 
 
 
