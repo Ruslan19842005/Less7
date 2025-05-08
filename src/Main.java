@@ -24,6 +24,7 @@ public class Main {
 
             for (int i = 1904; i < 2096; i = i + 4) {
                 System.out.println(i);
+                System.out.println(" Год високосный");
             }
 
 
@@ -39,14 +40,15 @@ public class Main {
 
             for (int i = 0; i <=12 * 29000; i += 29000){
                 System.out.println(i);
+                System.out.println("Накопления" + i + " за все время");
             }
 
 
             int salary = 29000;
             int total = 0;
             for (int i = 0; i <12; i++) {
-                total= total+ total/100;
                 total = total + salary;
+                total = total + total/100;
                 System.out.println("Месяц" + i + "Итого" + total);
                 System.out.println(total);
             }
@@ -54,6 +56,7 @@ public class Main {
 
         for (int i =1; i <= 10;  i++){
             System.out.println("2*" + i + "=" + 2 * i);
+            System.out.println("Таблица умножения");
         }
 
 
